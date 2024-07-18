@@ -24,7 +24,6 @@ function App() {
   console.log(userInput)
   return(
   <div>
-    <p>sddfghjkl</p>
     <Header/>
     <UserInput onchange={handleChange} input={userInput} />
     {!hasResult&&<p className="center">duration has to be greater then 0!</p>}
